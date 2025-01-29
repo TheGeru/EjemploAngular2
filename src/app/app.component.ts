@@ -28,9 +28,9 @@ export class AppComponent {
     this.valor3 = this.generarAleatorio();
 
     if (this.valor1 == this.valor2 && this.valor1 == this.valor3) {
-      this.resultado = 'FELICIDADES GANASTE WEEE :D';
+      this.resultado = 'FELICIDADES GANASTE :D';
     }else{
-      this.resultado = 'FRACASADO INTENTA OTRA VEZ';
+      this.resultado = 'INTENTA OTRA VEZ';
     }
   }
 
